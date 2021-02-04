@@ -6,7 +6,7 @@
 ### Project Title
 Explore US Bikeshare Data
 
-### Description
+### Project Description
 1.The project is about a bicycle sharing system that shows usage patterns between three large cities in the United States.  
 
 2.This project computes descriptive statistics such as popular times of travel,popular stations and trip,Trip duration and user information depending on what city, day and month selected.
