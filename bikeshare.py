@@ -20,7 +20,7 @@ def get_filters():
     city = input('Would you like to see data for chicago, new york city or washington?').lower()
     cities =['chicago','new york city','washington']
     while city not in cities:
-        print('Invalid input- Please choose from only 3 cities asked')
+        print('Invalid input- Please choose from only 3 cities asked.')
         city = input('Would you like to see data for chicago, new york or washington?').lower()
         
     # TO DO: get user input for month (all, january, february, ... , june)
@@ -28,14 +28,14 @@ def get_filters():
     months =['january','february','march','april','may','june']
     
     while month not in  months:
-        print('Invalid input- Please choose months between january and june only')
+        print('Invalid input- Please choose months between january and june only.')
         month = input('Which data between the months from January to June are you interested in?').lower()
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     day = input('What day of the week are you interested in picking the data?').lower()
     days =['monday','tuesday','wednesday','thursday','friday','saturday','sunday']
     
     while day not in days:
-        print('Invalid input- Select only a day from the week')
+        print('Invalid input- Select only a day from the week.')
         day = input('What day of the week are you interested in picking the data?').lower()
     
     print("Selection has been made based on:\n City:{} \n Month:{} \n Day:{}".format(city.title(),month.title(),day.title()))
