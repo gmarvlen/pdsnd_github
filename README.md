@@ -1,15 +1,26 @@
 ### Date created
-Include the date you created this project and README file.
+*Project created date:23-Jan-2021  
+
+*README.md created date:5-Feb-2021
 
 ### Project Title
-Replace the Project Title
+Explore US Bikeshare Data
 
 ### Description
-Describe what your project is about and what it does
+1.The project is about a bicycle sharing system that shows usage patterns between three large cities in the United States.  
+
+2.This project computes descriptive statistics such as popular times of travel,popular stations and trip,Trip duration and user information depending on what city, day and month selected.
 
 ### Files used
-Include the files used
+-bikeshare.py  
+
+-chicago.csv   
+
+-new_york_city.csv  
+ 
+-washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+https://github.com/udacity/course-collaboration-travel-plans.git  
 
+https://github.com/GoogleChrome/lighthouse.git
